@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>C1AAF1BE44AC7087FEE1B0BB26334D93</ExecutionGuid>
+		<CrashGUID>UECC-Windows-94A7B8B74CAE5BC28597A699D9C5157D_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>OutOfMemory</CrashType>
+		<ErrorMessage>LowLevelFatalError [File:D:\TeamCityWorkDir\CO\Main\UE4\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 253] Ran out of memory allocating 45056 (0.0 MiB) bytes with alignment 0. Last error msg: The paging file is too small for this operation to complete..</ErrorMessage>
+		<CrashReporterMessage />
+		<CrashReporterMessage>Attended</CrashReporterMessage>
+		<ProcessId>21844</ProcessId>
+		<SecondsSinceStart>25</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Commandos</GameName>
+		<ExecutableName>Commandos-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (24H2) [10.0.26100.4652]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.4.4-74101+++ClaymoreGames+CommandosOrigins+CommandosOrigins-M</EngineVersion>
+		<EngineCompatibleVersion>5.4.4-74101+++ClaymoreGames+CommandosOrigins+CommandosOrigins-M</EngineCompatibleVersion>
+		<CommandLine>Commandos</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>5.4.4.74101</BuildVersion>
+		<Symbols>5.4.4.74101-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName>HP</UserName>
+		<BaseDir>C:/Program Files (x86)/Commandos Origins/Commandos/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files (x86)/Commandos Origins/</RootDir>
+		<MachineId>41E879FE493D6472F2D8A6909F6CE0CC</MachineId>
+		<LoginId>41e879fe493d6472f2d8a6909f6ce0cc</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i5-12400</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Radeon(TM) RX 550</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.4652]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<Misc.AnticheatProvider />
+		<MemoryStats.TotalPhysical>16849788928</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>42993184768</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>2752851968</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>37842944</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>4089208832</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>4089208832</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5380059136</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5413548032</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>1</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>45056</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+		<CallStack>Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+Commandos_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>Commandos-Win64-Shipping 0x00007ff6c84c0000 + f76426 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f88173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9c5b9 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9bf07 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9bda0 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fd9652 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 101f87e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1fac62c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 102e75b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1032e02 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</PCallStack>
+		<PCallStackHash>9B85F487D81787520AF7C0F8AE94E59CC36716FE</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 165a24 ntdll 0x00007fff7b360000 + 3a303 KERNELBASE 0x00007fff78910000 + e4ba8 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 104ef42 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f58eef Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11a5d24 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11a55b1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12f6657 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12f64da Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12fce69 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1301bf5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 13016b7 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1302546 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12bb370 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4c1c70b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4c12967 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4a308ba Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11c1959 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d03c5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d23c2 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d7406 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2f88 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12ce888 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d7d7b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2f88 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2e91 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11c1959 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2d3f Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3056fb0 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302db48 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2ff7de7 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 301c1c3 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2f81fff Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2fb2e63 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2f81fff Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2fb2e63 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3062cbd Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2f81fff Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2fb2e63 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3062cbd Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d7be Commandos-Win64-Shipping 0x00007ff6c84c0000 + 302d689 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2f806d8 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2f809df Commandos-Win64-Shipping 0x00007ff6c84c0000 + 304cedc Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4cb41f4 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4cb3fde Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11c1959 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d03c5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2f88 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12ce888 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d7d7b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2f88 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2e91 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11c1959 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 12d2d3f Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3262702 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3249c93 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4cad9a5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4c0b5fa Commandos-Win64-Shipping 0x00007ff6c84c0000 + 324f50f Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3db62c0 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 4c180f1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3d460dd Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3d649e6 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3cf2277 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 36637f3 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3e06704 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3e0dd6c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3e0ddea Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3e0ec10 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3e16ed4 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 683dd82 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8676</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4468</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3920</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24424</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19732</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2188</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15676</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11512</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23036</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14508</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f5a1ea Commandos-Win64-Shipping 0x00007ff6c84c0000 + f42b70 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22916</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6088</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21168</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4ef1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23216</ThreadID>
+				<ThreadName>FHeartBeatThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 17017f3 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14036</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 44ac246 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23904</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 165a24 ntdll 0x00007fff7b360000 + 3a303 KERNELBASE 0x00007fff78910000 + e4ba8 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 104eecc Commandos-Win64-Shipping 0x00007ff6c84c0000 + f58eef Commandos-Win64-Shipping 0x00007ff6c84c0000 + f58d2c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10a16e6 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4f84 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10904</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12936</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14872</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8868</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10064</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1fbd112 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15604</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10f41cf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 686aece VCRUNTIME140 0x00007fff5f200000 + f47f ntdll 0x00007fff7b360000 + 16650f ntdll 0x00007fff7b360000 + 74527 ntdll 0x00007fff7b360000 + 733b6 KERNELBASE 0x00007fff78910000 + c7f9a Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10f64d1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1098d90 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1043ef6 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f76426 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f88173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9c5b9 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9bf07 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f9bda0 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fd9652 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 101f87e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1fac62c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 102e75b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1032e02 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>9484</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 29232a5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22276</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 29232a5 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22180</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f52e0b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2ad4cab Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22508</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f52e0b Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2ad46a1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2ad4d07 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21040</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 2ad4dd7 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15352</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22064</ThreadID>
+				<ThreadName>PSOPrecompilePool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22400</ThreadID>
+				<ThreadName>PSOPrecompilePool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24148</ThreadID>
+				<ThreadName>PSOPrecompilePool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12648</ThreadID>
+				<ThreadName>PSOPrecompilePool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2488</ThreadID>
+				<ThreadName>PSOPrecompilePool #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6524</ThreadID>
+				<ThreadName>PSOPrecompilePool #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12864</ThreadID>
+				<ThreadName>PSOPrecompilePool #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15912</ThreadID>
+				<ThreadName>PSOPrecompilePool #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + fc4d8e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23764</ThreadID>
+				<ThreadName>PSOPrecompilePool #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 310f6a4 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12876</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5993139 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5977a7d Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59a8173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23744</ThreadID>
+				<ThreadName>Electra::ExecAsync</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 6129734 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11812</ThreadID>
+				<ThreadName>XInputThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11d1911 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11d17ee Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11af3df Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20640</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3ceb2a1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9152</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1ed74c7 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10900</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1ed76e7 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1ed761e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8988</ThreadID>
+				<ThreadName>AudioMixerRenderThread(2)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1234ee2 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12368</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5993139 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5a2970c Commandos-Win64-Shipping 0x00007ff6c84c0000 + f46b77 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59a8173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15028</ThreadID>
+				<ThreadName>ElectraPlayer::EventDispatch</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5a29970 Commandos-Win64-Shipping 0x00007ff6c84c0000 + f46b77 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59a8173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2480</ThreadID>
+				<ThreadName>ElectraPlayer::SharedWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 161e54 KERNELBASE 0x00007fff78910000 + 4cbbf Commandos-Win64-Shipping 0x00007ff6c84c0000 + 1100766 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5938c8f Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2968</ThreadID>
+				<ThreadName>ElectraHTTPStream</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5acb232 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 5ad576c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11a442e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59a8173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23712</ThreadID>
+				<ThreadName>ElectraPlayer::MP4 streamer</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59b32e1 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 11a442e Commandos-Win64-Shipping 0x00007ff6c84c0000 + 59a8173 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13760</ThreadID>
+				<ThreadName>ElectraPlayer::Video decoder</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff7b360000 + 162454 ntdll 0x00007fff7b360000 + ddad4 KERNELBASE 0x00007fff78910000 + 76671 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10ff36c Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3165079 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 3164212 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fef17 Commandos-Win64-Shipping 0x00007ff6c84c0000 + 10fc6c1 KERNEL32 0x00007fff79ce0000 + 2e8d7</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23600</ThreadID>
+				<ThreadName>SlateLoadingThread3</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638887492044370000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>12th Gen Intel(R) Core(TM) i5-12400</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Program Files (x86)\Commandos Origins\Commandos\Binaries\Win64\Commandos-Win64-Shipping.exe
+C:\Program Files (x86)\Commandos Origins\Commandos\Binaries\Win64\amd_fidelityfx_dx12.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Steamworks\Steamv157\Win64\steamclient64.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Program Files (x86)\Commandos Origins\Commandos\Binaries\Win64\OpenColorIO_2_3.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Steamworks\Steamv157\Win64\steam_api64.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Program Files (x86)\Commandos Origins\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<DriveStats.Project.Name>C:/Program Files (x86)/Commandos Origins/Commandos/Binaries/Win64/</DriveStats.Project.Name>
+		<DriveStats.Project.Type>SSD</DriveStats.Project.Type>
+		<DriveStats.Project.FreeSpaceKb>394668</DriveStats.Project.FreeSpaceKb>
+		<DriveStats.PersistentDownload.Name>C:/Users/HP/AppData/Local/Commandos/Saved/PersistentDownloadDir</DriveStats.PersistentDownload.Name>
+		<DriveStats.PersistentDownload.Type>SSD</DriveStats.PersistentDownload.Type>
+		<DriveStats.PersistentDownload.FreeSpaceKb>394668</DriveStats.PersistentDownload.FreeSpaceKb>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>false</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>Radeon(TM) RX 550</RHI.AdapterName>
+		<RHI.UserDriverVersion>AMD Software: Adrenalin Edition 23.19.10.04</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.21910.4002</RHI.InternalDriverVersion>
+		<RHI.DriverDate>3-22-2024</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>AMD</RHI.GPUVendor>
+		<RHI.DeviceId>699F</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
